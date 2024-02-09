@@ -3,19 +3,19 @@ export type Tournament = {
 	game: 'PUBG Mobile' | 'Mobile Legends' | 'Call of Duty: Mobile' | 'Clash Royale';
 	gameSlug: 'pubgm' | 'mlbb' | 'codm' | 'cr';
 	coverImage: string;
-	format: '1v1' | '5v5';
+	format: '1v1' | '5v5' | 'Standard';
 	maxParticipant: number;
 	currentParticipant: number;
 	startDate: string;
 };
 
-export const tournaments = [
+export const tournaments: Tournament[] = [
 	{
 		title: 'PUBG Mobile Championship',
 		game: 'PUBG Mobile',
 		gameSlug: 'pubgm',
 		coverImage: 'https://placehold.co/600x400/EEE/31343C',
-		format: '5v5',
+		format: 'Standard',
 		maxParticipant: 16,
 		currentParticipant: 10,
 		startDate: '2024-02-15'
@@ -25,7 +25,7 @@ export const tournaments = [
 		game: 'PUBG Mobile',
 		gameSlug: 'pubgm',
 		coverImage: 'https://placehold.co/600x400/EEE/31343C',
-		format: '5v5',
+		format: 'Standard',
 		maxParticipant: 20,
 		currentParticipant: 15,
 		startDate: '2024-03-10'
@@ -35,7 +35,7 @@ export const tournaments = [
 		game: 'PUBG Mobile',
 		gameSlug: 'pubgm',
 		coverImage: 'https://placehold.co/600x400/EEE/31343C',
-		format: '5v5',
+		format: 'Standard',
 		maxParticipant: 24,
 		currentParticipant: 18,
 		startDate: '2024-04-05'
