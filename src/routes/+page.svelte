@@ -24,12 +24,14 @@
 <div class="flex justify-between px-4">
 	{#each games as game}
 		<div>
-			<img
-				src={game.cardImage}
-				alt={game.title}
-				class="box-border w-[220px] rounded-lg border-2 border-background hover:border-primary"
-			/>
-			<p class="text-lg font-semibold">{game.title}</p>
+			<a href={`/tournamets/${game.slug}`}>
+				<img
+					src={game.cardImage}
+					alt={game.title}
+					class="box-border w-[220px] rounded-lg border-2 border-background hover:border-primary"
+				/>
+				<p class="text-lg font-semibold">{game.title}</p>
+			</a>
 		</div>
 	{/each}
 </div>
