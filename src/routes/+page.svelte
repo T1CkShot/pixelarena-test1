@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { games } from '$lib/db/games';
 	import * as Tabs from '$lib/components/ui/tabs';
 	import TourneyCard from '$lib/components/TourneyCard.svelte';
