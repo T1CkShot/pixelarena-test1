@@ -1,4 +1,5 @@
 export type Tournament = {
+	id: string;
 	title: string;
 	game: 'PUBG Mobile' | 'Mobile Legends' | 'Call of Duty: Mobile' | 'Clash Royale';
 	gameSlug: 'pubgm' | 'mlbb' | 'codm' | 'cr';
@@ -16,6 +17,7 @@ export type Tournament = {
 export const tournaments: Tournament[] = [
 	// PUBG Mobile Tournaments
 	{
+		id: '131212',
 		title: 'PUBG Mobile Championship',
 		game: 'PUBG Mobile',
 		gameSlug: 'pubgm',
@@ -30,6 +32,7 @@ export const tournaments: Tournament[] = [
 		startDate: '2024-03-01'
 	},
 	{
+		id: '121212',
 		title: 'PUBG Mobile Solo Showdown',
 		game: 'PUBG Mobile',
 		gameSlug: 'pubgm',
@@ -47,6 +50,7 @@ export const tournaments: Tournament[] = [
 
 	// Mobile Legends Tournaments
 	{
+		id: '134212',
 		title: 'MLBB World Series',
 		game: 'Mobile Legends',
 		gameSlug: 'mlbb',
@@ -61,6 +65,7 @@ export const tournaments: Tournament[] = [
 		startDate: '2024-04-10'
 	},
 	{
+		id: '135212',
 		title: 'MLBB Solo Showdown',
 		game: 'Mobile Legends',
 		gameSlug: 'mlbb',
@@ -78,6 +83,7 @@ export const tournaments: Tournament[] = [
 
 	// Call of Duty: Mobile Tournaments
 	{
+		id: '131262',
 		title: 'CODM Pro League',
 		game: 'Call of Duty: Mobile',
 		gameSlug: 'codm',
@@ -92,6 +98,7 @@ export const tournaments: Tournament[] = [
 		startDate: '2024-05-05'
 	},
 	{
+		id: '131562',
 		title: 'CODM Battle Royale Challenge',
 		game: 'Call of Duty: Mobile',
 		gameSlug: 'codm',
@@ -109,6 +116,7 @@ export const tournaments: Tournament[] = [
 
 	// Clash Royale Tournaments
 	{
+		id: '931212',
 		title: 'Clash Royale Grand Slam',
 		game: 'Clash Royale',
 		gameSlug: 'cr',
@@ -123,6 +131,7 @@ export const tournaments: Tournament[] = [
 		startDate: '2024-06-01'
 	},
 	{
+		id: '131242',
 		title: 'Clash Royale Team Clash',
 		game: 'Clash Royale',
 		gameSlug: 'cr',
@@ -137,6 +146,7 @@ export const tournaments: Tournament[] = [
 		startDate: '2024-06-15'
 	},
 	{
+		id: '131992',
 		title: 'PUBG Mobile Elite League',
 		game: 'PUBG Mobile',
 		gameSlug: 'pubgm',
@@ -151,6 +161,7 @@ export const tournaments: Tournament[] = [
 		startDate: '2024-03-20'
 	},
 	{
+		id: '191212',
 		title: 'PUBG Mobile Squad Showdown',
 		game: 'PUBG Mobile',
 		gameSlug: 'pubgm',
@@ -168,6 +179,7 @@ export const tournaments: Tournament[] = [
 
 	// Additional Mobile Legends Tournaments
 	{
+		id: '131772',
 		title: 'MLBB Masters Cup',
 		game: 'Mobile Legends',
 		gameSlug: 'mlbb',
@@ -182,6 +194,7 @@ export const tournaments: Tournament[] = [
 		startDate: '2024-05-01'
 	},
 	{
+		id: '131212412',
 		title: 'MLBB Clash of Titans',
 		game: 'Mobile Legends',
 		gameSlug: 'mlbb',
@@ -199,6 +212,7 @@ export const tournaments: Tournament[] = [
 
 	// Additional Call of Duty: Mobile Tournaments
 	{
+		id: '131333',
 		title: 'CODM Battle Royale Showdown',
 		game: 'Call of Duty: Mobile',
 		gameSlug: 'codm',
@@ -213,6 +227,7 @@ export const tournaments: Tournament[] = [
 		startDate: '2024-06-01'
 	},
 	{
+		id: '1342412',
 		title: 'CODM Gunfight Tournament',
 		game: 'Call of Duty: Mobile',
 		gameSlug: 'codm',
@@ -230,6 +245,7 @@ export const tournaments: Tournament[] = [
 
 	// Additional Clash Royale Tournaments
 	{
+		id: '12233412',
 		title: 'Clash Royale Royale Rumble',
 		game: 'Clash Royale',
 		gameSlug: 'cr',
@@ -244,6 +260,7 @@ export const tournaments: Tournament[] = [
 		startDate: '2024-07-01'
 	},
 	{
+		id: '1122312',
 		title: 'Clash Royale Clan Clash',
 		game: 'Clash Royale',
 		gameSlug: 'cr',

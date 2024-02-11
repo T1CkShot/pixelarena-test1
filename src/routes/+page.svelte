@@ -53,7 +53,9 @@
 		<Tabs.Content value={game.slug}>
 			<div class="flex justify-center gap-6">
 				{#each filterTournamets(tournaments, game.slug) as tournament}
-					<TourneyCard content={tournament} />
+					<a href={`/tournaments/${tournament.gameSlug}/${tournament.id}`}>
+						<TourneyCard content={tournament} />
+					</a>
 				{/each}
 			</div>
 			<div class="mt-4 flex w-full justify-center">
